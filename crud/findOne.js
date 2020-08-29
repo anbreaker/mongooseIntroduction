@@ -1,10 +1,10 @@
 require('../connection');
 
-const Product = require('../models/Product');
+const User = require('../models/User');
 
-const main = async () => {
-  const products = await Product.find();
-  console.log(products);
+const getUser = async () => {
+  const user = await User.findOne({username: 'anbreaker'});
+  console.log(user);
 };
 
-main();
+getUser();
