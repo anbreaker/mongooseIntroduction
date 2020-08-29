@@ -16,9 +16,10 @@ const otherFunction = async () => {
     {
       name: 'Job AsyncAPI',
     },
-    {new: false}
+    {new: true}
   );
-  console.log(user);
+
+  console.log('dentro', user);
 };
 
 const updateUser = async () => {
