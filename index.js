@@ -13,6 +13,4 @@ laptop.save((error, document) => {
   console.log(document);
 });
 
-//min33
-
 console.log(laptop);
